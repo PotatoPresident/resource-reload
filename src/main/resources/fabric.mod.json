@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "resource-reload",
+  "version": "${version}",
+
+  "name": "Resource Reload",
+  "description": "Resends server resource pack on /reload",
+  "authors": [
+    "Potatoboy9999"
+  ],
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "us.potatoboy.resourcereload.ResourceReload"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  }
+}
